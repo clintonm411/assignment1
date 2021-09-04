@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        ::: Requirements
+        These are the required items for your HTML & CSS landing page:
+        - ** done ** Headline
+        - ** done ** Logo or Profile Picture
+        -  ** done ** Hero Image
+        -  ** Benefit Statements (e.g, why use your product or service, why hire you, etc.)
+        -  ** done ** Lead Form (use an external service like https://statickit.com/ to send emails)
+        - ** done ** Call to Action Button (e.g, Buy Now, Get Started, Contact Me, etc.)
+        - ** done ** Cards for Trust Indicators (i.e, testimonials, courses taken, social proof, authority, scarcity)
+    -->
+
+    <head>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        
+
+        <!--  Headline & logo-->
+        <div class="px-4 py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="./file-person-fill.svg" alt="" width="72" height="57">
+            <h1 class="display-5 fw-bold">Clinton's Profile</h1>
+            </div>
+        </div>
+
+        <!-- Hero Image & Benefit Statment & Call to Action-->
+        <div class="container col-xxl-8 px-4 py-1">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./hero.jpg" class="d-block mx-lg-auto img-fluid" alt="Not Clinton" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Cool Confidence Coder</h1>
+                <p class="lead">Knowdlege of PHP, MySQL and Object Oriented Porgamming.
+                    Familiar with Anroid Porgramming and Version Control via Git.
+
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact me</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Know more...</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">Custom cards</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Github Profile</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Earth</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Recent projects in HTML and CSS</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Pakistan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Previous experience in PHP and MySQL</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>California</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!--Form-->
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold">Get in touch</h1>
+            <div class="col-lg-6 mx-auto">
+                <form
+                action="https://formspree.io/f/mknkkvko"
+                method="POST"
+                >
+                <p>
+                    <label>
+                        Your email:
+                        <input type="email" name="_replyto">
+                        </label>
+                </p>
+                <p>
+                    <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                    </label>
+                </p>
+                
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Send</button>
+                </form>
+              
+            </div>
+        </div>
+
+        
+    </body>
+
+</html>
